@@ -1,0 +1,49 @@
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #8c8a8a;
+}
+
+.scheduler_container .scheduler {
+  margin: 0px;
+}
+
+.scheduler_container .scheduler-view {
+  width: 61.1% !important;
+}
+
+.scheduler_container thead td {
+  display: none;
+}
+
+.scheduler_container th {
+  background-color: white !important;
+}
+
+.scheduler_container td {
+  background-color: transparent !important;
+}
+
+.scheduler_container .header3-text {
+  background-color: #fafafa !important;
+  color: #71717a !important;
+}
+.scheduler_container .resource-table .header3-text {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+.scheduler-header .view-selector {
+  display: none;
+}
